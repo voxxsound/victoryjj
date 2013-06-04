@@ -11,15 +11,52 @@
 		<!--[if IE]>
 		  <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<![endif]-->
+
+		<script type="text/javascript" src="assets/slider/scripts/swfobject/swfobject.js"></script>
+		<script type="text/javascript">
+			var flashvars = {};
+				flashvars.cssSource = "stylesheets/piecemaker.css";
+				flashvars.xmlSource = "assets/slider/piecemaker.xml";
+			
+			var params = {};
+				params.play = "true";
+				params.menu = "false";
+				params.scale = "showall";
+				params.wmode = "transparent";
+				params.allowfullscreen = "true";
+				params.allowscriptaccess = "always";
+				params.allownetworking = "all";
+				
+			swfobject.embedSWF('assets/slider/piecemaker.swf', 'piecemaker', '1000', '600', '10', null, flashvars, params, null);
+		</script>
 	</head>
 	<body>
 		<div id=header>
-			<?php
-				echo <p>This is the header</p>
-		</div>
+      <img src="assets/images/logo.png">
+      <div id=top-nav>
+        <p>Victory</p>
+        <div id=nav>
+          <ul>
+            <li>Schedule</li>
+            <li>Programs</li>
+            <li>Instructors</li>
+            <li>Photos</li>
+            <li>About Us</li>
+          </ul>
+        </div>      
+      </div>
+      <div id=divider>
+        <p>Brazilian Jiu-Jitsu</p>
+       </div>
+
 		<div id=body>
-			This is the first line of the body.
-			And I am adding a new line
+			<div id=piecemaker>
+				<p>Put your alternative Non Flash content here.</p>
+			</div>
+			<div id=content>
+				This is the first line of the body.
+				And I am adding a new line
+			</div>
 		</div>
 		<div id=footer>
 			<p>This is the footer..</p>

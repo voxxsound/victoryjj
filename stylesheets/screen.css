@@ -68,16 +68,69 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 8, ../sass/screen.scss */
-#header {
-  background-color: green;
+body {
+  position: relative;
+  width: 100%;
 }
-
-/* line 12, ../sass/screen.scss */
-#body {
-  background-color: red;
+/* line 13, ../sass/screen.scss */
+body #header #top-nav {
+  background-color: #b3acac;
 }
-
 /* line 16, ../sass/screen.scss */
-#footer {
+body #header #top-nav p {
+  position: inherit;
+  height: 60px;
+  font-size: 60px;
+  margin-left: 110px;
+}
+/* line 23, ../sass/screen.scss */
+body #header #top-nav #nav ul {
+  position: relative;
+  float: right;
+  list-style-type: none;
+  display: inline;
+  margin-top: -25px;
+  padding: 0;
+}
+/* line 31, ../sass/screen.scss */
+body #header #top-nav #nav ul li {
+  display: inline;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+/* line 40, ../sass/screen.scss */
+body #header img {
+  position: absolute;
+  float: left;
+  top: 25px;
+  z-index: 5;
+}
+/* line 46, ../sass/screen.scss */
+body #header #divider {
+  width: 100%;
+  position: absolute;
+  top: 57px;
+  height: 20px;
+  background-color: #e80302;
+  z-index: -1;
+}
+/* line 54, ../sass/screen.scss */
+body #header #divider p {
+  position: absolute;
+  left: 120px;
+  text-decoration: bold;
+  font-size: 20px;
+}
+/* line 63, ../sass/screen.scss */
+body #body {
+  text-align: center;
+}
+/* line 69, ../sass/screen.scss */
+body #body #content {
+  margin: 0 auto;
+}
+/* line 74, ../sass/screen.scss */
+body #footer {
   background-color: blue;
 }
