@@ -72,48 +72,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 20px;
   background-color: #e80400;
   z-index: -1;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
+.home-content {
+  background-color: #d5d0cc;
+  border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 45%;
+  border: 1px solid #aaaaaa;
+}
+
+/* line 27, ../sass/screen.scss */
 html {
   width: 100%;
   display: block;
-  background-color: #eee;
+  background-color: #f2f0ee;
+  background-image: url("../assets/images/bg_test1.png");
+  background-repeat: no-repeat;
 }
-/* line 19, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 html body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 24, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 html body #header {
   margin-top: 10px;
 }
-/* line 27, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 html body #header img {
   position: relative;
   float: left;
   top: 25px;
   z-index: 5;
 }
-/* line 34, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 html body #header #title {
   position: relative;
   height: 60px;
-  background-color: #b3acac;
+  background-color: #d5d0cc;
   -moz-border-radius: 15px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 html body #header #title p {
   position: absolute;
   font-size: 60px;
   left: 95px;
   top: 8px;
 }
-/* line 51, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 html body #header #nav ul {
   position: relative;
   float: right;
@@ -122,7 +138,7 @@ html body #header #nav ul {
   margin-top: -25px;
   padding: 0;
 }
-/* line 59, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 html body #header #nav ul li {
   display: inline-block;
   padding: 5px;
@@ -130,12 +146,11 @@ html body #header #nav ul li {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 69, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 html body #header #top-div {
-  width: 100%;
   position: relative;
 }
-/* line 73, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 html body #header #top-div p {
   position: absolute;
   left: 135px;
@@ -143,17 +158,23 @@ html body #header #top-div p {
   text-decoration: bold;
   font-size: .95em;
 }
-/* line 88, ../sass/screen.scss */
-html body #body #content {
-  margin: 0 auto;
-}
-/* line 93, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 html body #footer {
-  background-color: #b3acac;
+  background-color: #d5d0cc;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  height: 260px;
+  margin-bottom: 20px;
 }
-/* line 98, ../sass/screen.scss */
-html body #footer #bottom-div {
-  width: 100%;
+
+/* line 112, ../sass/screen.scss */
+#main {
+  border-right: solid 1px #aaaaaa;
+  border-left: solid 1px #aaaaaa;
+  background-color: #fff;
+}
+/* line 121, ../sass/screen.scss */
+#main #content {
+  margin: 0 auto;
+  padding: 10px;
 }
