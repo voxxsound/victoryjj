@@ -33,22 +33,22 @@
 	<body>
 		<div id=header>
       <img src="assets/images/logo.png">
-      <div id=top-nav>
+      <div id=title>
         <p>Victory</p>
-        <div id=nav>
-          <ul>
-            <li>Schedule</li>
-            <li>Programs</li>
-            <li>Instructors</li>
-            <li>Photos</li>
-            <li>About Us</li>
-          </ul>
-        </div>      
       </div>
-      <div id=divider>
+      <div id=nav>
+          <ul>
+            <li>SCHEDULE</li>
+            <li>PROGRAMS</li>
+            <li>INSTRUCTORS</li>
+            <li>PHOTOS</li>
+            <li>ABOUT US</li>
+          </ul>
+      </div>      
+      <div id=top-div class=divider>
         <p>Brazilian Jiu-Jitsu</p>
-       </div>
-
+      </div>
+    </div>
 		<div id=body>
 			<div id=piecemaker>
 				<p>Put your alternative Non Flash content here.</p>
@@ -58,10 +58,10 @@
 				And I am adding a new line
 			</div>
 		</div>
-		<div id=footer>
-			<p>This is the footer..</p>
-			<?php
-				echo <p>This is text from within PHP tags in the footer</p>
-		</div>
+    <div id=footer>
+      <div id=bottom-div class=divider></div>
+      <p>This is the footer..</p>
+      <?php echo <p>This is text from within PHP tags in the footer</p>
+    </div>
 	</body>
 </html>
