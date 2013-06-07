@@ -93,7 +93,7 @@ html {
   width: 100%;
   display: block;
   background-color: #f2f0ee;
-  background-image: url("../assets/images/bg_test1.png");
+  background-image: url("../assets/images/bg_test2.png");
   background-repeat: no-repeat;
 }
 /* line 34, ../sass/screen.scss */
@@ -146,11 +146,28 @@ html body #header #nav ul li {
   font-size: 1em;
   font-weight: bold;
 }
+/* line 81, ../sass/screen.scss */
+html body #header #nav ul li a {
+  color: #111;
+}
 /* line 84, ../sass/screen.scss */
+html body #header #nav ul li a:link {
+  text-decoration: none;
+}
+/* line 88, ../sass/screen.scss */
+html body #header #nav ul li a:hover {
+  text-decoration: underline;
+  color: #ffd;
+}
+/* line 93, ../sass/screen.scss */
+html body #header #nav ul li a:active {
+  text-decoration: underline;
+}
+/* line 100, ../sass/screen.scss */
 html body #header #top-div {
   position: relative;
 }
-/* line 88, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 html body #header #top-div p {
   position: absolute;
   left: 135px;
@@ -158,7 +175,7 @@ html body #header #top-div p {
   text-decoration: bold;
   font-size: .95em;
 }
-/* line 100, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 html body #footer {
   background-color: #d5d0cc;
   border-bottom-left-radius: 10px;
@@ -167,13 +184,13 @@ html body #footer {
   margin-bottom: 20px;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #main {
   border-right: solid 1px #aaaaaa;
   border-left: solid 1px #aaaaaa;
   background-color: #fff;
 }
-/* line 121, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #main #content {
   margin: 0 auto;
   padding: 10px;

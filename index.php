@@ -38,11 +38,11 @@
       </div>
       <div id=nav>
           <ul>
-            <li>SCHEDULE</li>
-            <li>PROGRAMS</li>
-            <li>INSTRUCTORS</li>
-            <li>PHOTOS</li>
-            <li>ABOUT US</li>
+            <li><a href="">SCHEDULE</a></li>
+            <li><a href="">PROGRAMS</a></li>
+            <li><a href="">INSTRUCTORS</a></li>
+            <li><a href="">PHOTOS</a></li>
+            <li><a href="">ABOUT US</a></li>
           </ul>
       </div>      
       <div id=top-div class=divider>
@@ -55,10 +55,14 @@
 			</div>
 			<div id=content>
         <div id=news class=home-content>
+          <p><strong>News</strong></p>
+          <br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
           </p>
         </div>
         <div id=about class=home-content>
+          <p><strong>About Victory</strong></p>
+          <br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
           </p>
         </div>
