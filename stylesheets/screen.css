@@ -80,15 +80,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 18, ../sass/screen.scss */
 .home-content {
-  background-color: #d5d0cc;
-  border-radius: 10px;
+  float: left;
+  background-color: #eee;
   border-radius: 10px;
   padding: 15px;
-  width: 45%;
+  width: 400px;
   border: 1px solid #aaaaaa;
+  margin: 25px 25px 25px;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
+.clear {
+  clear: both;
+}
+
+/* line 31, ../sass/screen.scss */
 html {
   width: 100%;
   display: block;
@@ -96,24 +102,24 @@ html {
   background-image: url("../assets/images/bg_test2.png");
   background-repeat: no-repeat;
 }
-/* line 34, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 html body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 39, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 html body #header {
   margin-top: 10px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 html body #header img {
   position: relative;
   float: left;
   top: 25px;
   z-index: 5;
 }
-/* line 49, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 html body #header #title {
   position: relative;
   height: 60px;
@@ -122,14 +128,14 @@ html body #header #title {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-/* line 57, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 html body #header #title p {
   position: absolute;
   font-size: 60px;
   left: 95px;
   top: 8px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 html body #header #nav ul {
   position: relative;
   float: right;
@@ -138,7 +144,7 @@ html body #header #nav ul {
   margin-top: -25px;
   padding: 0;
 }
-/* line 74, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 html body #header #nav ul li {
   display: inline-block;
   padding: 5px;
@@ -146,28 +152,28 @@ html body #header #nav ul li {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 81, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 html body #header #nav ul li a {
   color: #111;
 }
-/* line 84, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 html body #header #nav ul li a:link {
   text-decoration: none;
 }
-/* line 88, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 html body #header #nav ul li a:hover {
   text-decoration: underline;
   color: #ffd;
 }
-/* line 93, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 html body #header #nav ul li a:active {
   text-decoration: underline;
 }
-/* line 100, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 html body #header #top-div {
   position: relative;
 }
-/* line 104, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 html body #header #top-div p {
   position: absolute;
   left: 135px;
@@ -175,22 +181,85 @@ html body #header #top-div p {
   text-decoration: bold;
   font-size: .95em;
 }
-/* line 116, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 html body #footer {
+  margin-bottom: 10px;
+  background-clip: content-box;
+}
+/* line 121, ../sass/screen.scss */
+html body #footer #foot-container {
   background-color: #d5d0cc;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -moz-border-radius: 15px;
   height: 260px;
-  margin-bottom: 20px;
+}
+/* line 128, ../sass/screen.scss */
+html body #footer #foot-container #victory {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+/* line 135, ../sass/screen.scss */
+html body #footer #foot-container #maguilla {
+  position: relative;
+  top: 50px;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+}
+/* line 142, ../sass/screen.scss */
+html body #footer #foot-container #maguilla img {
+  width: 60px;
+}
+/* line 147, ../sass/screen.scss */
+html body #footer #foot-container #pilsung {
+  position: relative;
+  top: -10px;
+  left: 90px;
+  width: 60px;
+  height: 60px;
+}
+/* line 154, ../sass/screen.scss */
+html body #footer #foot-container #pilsung img {
+  width: 60px;
+}
+/* line 159, ../sass/screen.scss */
+html body #footer #foot-container #address {
+  display: block;
+  position: relative;
+  left: 190px;
+  bottom: 174px;
+}
+/* line 165, ../sass/screen.scss */
+html body #footer #foot-container #address h1 {
+  font-size: 2.5em;
+  margin: 20px 0px;
+}
+/* line 171, ../sass/screen.scss */
+html body #footer #foot-container #sitemap {
+  list-style-type: none;
+  display: inline;
+  position: relative;
+  left: 530px;
+  bottom: 312px;
+}
+/* line 178, ../sass/screen.scss */
+html body #footer #foot-container #sitemap li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 30px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #main {
   border-right: solid 1px #aaaaaa;
   border-left: solid 1px #aaaaaa;
   background-color: #fff;
 }
-/* line 137, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #main #content {
   margin: 0 auto;
   padding: 10px;
