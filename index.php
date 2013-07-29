@@ -38,11 +38,12 @@
 		  </div>
 		  <div id=nav>
 			  <ul>
-				<li><a href="">SCHEDULE</a></li>
-				<li><a href="">PROGRAMS</a></li>
-				<li><a href="">INSTRUCTORS</a></li>
-				<li><a href="">PHOTOS</a></li>
-				<li><a href="">ABOUT US</a></li>
+					<li><a href="">HOME</a></li>
+					<li><a href="">SCHEDULE</a></li>
+					<li><a href="">PROGRAMS</a></li>
+					<li><a href="">INSTRUCTORS</a></li>
+					<li><a href="">PHOTOS</a></li>
+					<li><a href="">ABOUT US</a></li>
 			  </ul>
 		  </div>      
 		  <div id=top-div class=divider>
@@ -84,31 +85,45 @@
 		<div id=footer>
 		  <div id=bottom-div class=divider></div>
 		  <div id=foot-container>
-				<div id=victory>
-					<img src="assets/images/logo.png">
+				<div id=foot-left>
+					<div id=address>
+						<h1>Victory BJJ</h1>
+						<p>Victory Brazilian Jiu-Jitsu & MMA</p>
+						<p>Pil-Sung Martial Arts</p>
+						<p>Studio B</p>
+						<p>1095C Central Avenue</p>
+						<p>Albany, New York  12205</p>
+					</div>
+					<div id=contact>
+						<h3>518.573.1144</h3>
+						<a href="mailto:info@victory.com">info@victoryjj.com</a>
+					</div>
 				</div>
-				<div id=maguilla>
-					<img src="assets/images/maguilla2.gif">
+				<div id=foot-center>
+					<div id=victory class=clear>
+						<img src="assets/images/logo.png">
+					</div>
+					<div id=maguilla>
+						<img src="assets/images/maguilla2.gif">
+					</div>
+					<div id=fr>
+						<a href=”http://www.fightresource.com”><img src="assets/images/fr.jpg"></a>
+					</div>
+					<div id=pilsung>
+						<img src="assets/images/PilSungLogo.jpg">
+					</div>
 				</div>
-				<div id=pilsung>
-					<img src="assets/images/PilSungLogo.jpg">
-				</div>
-				<div id=address>
-					<h1>Victory BJJ</h1>
-					<p>Victory Brazilian Jiu-Jitsu & MMA</p>
-					<p>Pil-Sung Martial Arts</p>
-					<p>Studio B</p>
-					<p>1095C Central Avenue</p>
-					<p>Albany, New York  12205</p>
-				</div>
-				<div id=sitemap>
-					<ul>
-						<li>link 1</li>
-						<li>link 2</li>
-						<li>link 3</li>
-						<li>link 4</li>
-						<li>link 5</li>
-					</ul>
+				<div id=foot-right>
+					<div id=sitemap>
+			  <ul>
+					<li><a href="">home</a></li>
+					<li><a href="">schedule</a></li>
+					<li><a href="">programs</a></li>
+					<li><a href="">instructors</a></li>
+					<li><a href="">photos</a></li>
+					<li><a href="">about us</a></li>
+			  </ul>
+					</div>
 				</div>
 		  </div>
 		</div>

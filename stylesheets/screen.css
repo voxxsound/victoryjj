@@ -94,7 +94,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   clear: both;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
+a {
+  color: #7a7a7a;
+}
+
+/* line 36, ../sass/screen.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 40, ../sass/screen.scss */
+a:hover {
+  color: #ffd;
+}
+
+/* line 44, ../sass/screen.scss */
+a:active {
+  text-decoration: underline;
+}
+
+/* line 48, ../sass/screen.scss */
 html {
   width: 100%;
   display: block;
@@ -102,40 +122,40 @@ html {
   background-image: url("../assets/images/bg_test2.png");
   background-repeat: no-repeat;
 }
-/* line 38, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 html body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 43, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 html body #header {
   margin-top: 10px;
 }
-/* line 46, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 html body #header img {
   position: relative;
   float: left;
   top: 25px;
   z-index: 5;
 }
-/* line 53, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 html body #header #title {
   position: relative;
   height: 60px;
-  background-color: #d5d0cc;
+  background-color: #bbbbbb;
   -moz-border-radius: 15px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-/* line 61, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 html body #header #title p {
   position: absolute;
   font-size: 60px;
   left: 95px;
   top: 8px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 html body #header #nav ul {
   position: relative;
   float: right;
@@ -144,7 +164,7 @@ html body #header #nav ul {
   margin-top: -25px;
   padding: 0;
 }
-/* line 78, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 html body #header #nav ul li {
   display: inline-block;
   padding: 5px;
@@ -152,28 +172,11 @@ html body #header #nav ul li {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 85, ../sass/screen.scss */
-html body #header #nav ul li a {
-  color: #111;
-}
-/* line 88, ../sass/screen.scss */
-html body #header #nav ul li a:link {
-  text-decoration: none;
-}
-/* line 92, ../sass/screen.scss */
-html body #header #nav ul li a:hover {
-  text-decoration: underline;
-  color: #ffd;
-}
-/* line 97, ../sass/screen.scss */
-html body #header #nav ul li a:active {
-  text-decoration: underline;
-}
-/* line 104, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 html body #header #top-div {
   position: relative;
 }
-/* line 107, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 html body #header #top-div p {
   position: absolute;
   left: 135px;
@@ -181,85 +184,148 @@ html body #header #top-div p {
   text-decoration: bold;
   font-size: .95em;
 }
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 html body #footer {
   margin-bottom: 10px;
   background-clip: content-box;
 }
-/* line 121, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 html body #footer #foot-container {
-  background-color: #d5d0cc;
+  background-color: #bbbbbb;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   -moz-border-radius: 15px;
   height: 260px;
+  color: #7a7a7a;
 }
-/* line 128, ../sass/screen.scss */
-html body #footer #foot-container #victory {
-  position: relative;
-  left: 30px;
-  top: 30px;
+/* line 130, ../sass/screen.scss */
+html body #footer #foot-container #foot-left {
+  float: left;
+  width: 300px;
+  height: 260px;
 }
 /* line 135, ../sass/screen.scss */
-html body #footer #foot-container #maguilla {
+html body #footer #foot-container #foot-left #contact {
   position: relative;
+  left: 35px;
   top: 50px;
-  left: 15px;
-  width: 60px;
-  height: 60px;
 }
-/* line 142, ../sass/screen.scss */
-html body #footer #foot-container #maguilla img {
-  width: 60px;
+/* line 140, ../sass/screen.scss */
+html body #footer #foot-container #foot-left #contact h3 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
-/* line 147, ../sass/screen.scss */
-html body #footer #foot-container #pilsung {
+/* line 145, ../sass/screen.scss */
+html body #footer #foot-container #foot-left #contact a {
+  font-size: .9em;
+}
+/* line 150, ../sass/screen.scss */
+html body #footer #foot-container #foot-left #address {
   position: relative;
-  top: -10px;
-  left: 90px;
-  width: 60px;
-  height: 60px;
-}
-/* line 154, ../sass/screen.scss */
-html body #footer #foot-container #pilsung img {
-  width: 60px;
-}
-/* line 159, ../sass/screen.scss */
-html body #footer #foot-container #address {
+  left: 35px;
+  top: 30px;
   display: block;
-  position: relative;
-  left: 190px;
-  bottom: 174px;
 }
-/* line 165, ../sass/screen.scss */
-html body #footer #foot-container #address h1 {
-  font-size: 2.5em;
-  margin: 20px 0px;
+/* line 156, ../sass/screen.scss */
+html body #footer #foot-container #foot-left #address h1 {
+  font-size: 1.5em;
+  margin: 10px 0px;
+  font-weight: bold;
 }
-/* line 171, ../sass/screen.scss */
-html body #footer #foot-container #sitemap {
-  list-style-type: none;
-  display: inline;
+/* line 162, ../sass/screen.scss */
+html body #footer #foot-container #foot-left #address p {
+  font-size: .75em;
+}
+/* line 168, ../sass/screen.scss */
+html body #footer #foot-container #foot-center {
   position: relative;
-  left: 530px;
-  bottom: 312px;
+  background-image: url("../assets/images/glow2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 260px;
+  width: 400px;
+  float: left;
 }
 /* line 178, ../sass/screen.scss */
-html body #footer #foot-container #sitemap li {
-  display: inline-block;
-  padding: 10px;
+html body #footer #foot-container #foot-center #victory {
+  position: relative;
+  left: 125px;
+  top: 20px;
+  width: 150px;
+  height: 150px;
+}
+/* line 185, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #victory img {
+  width: 150px;
+}
+/* line 190, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #maguilla {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 75px;
+  top: 27px;
+}
+/* line 197, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #maguilla img {
+  width: 60px;
+}
+/* line 202, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #fr {
+  position: relative;
+  width: 25%;
+  left: 150px;
+  bottom: 25px;
+}
+/* line 208, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #fr img {
+  width: 100%;
+}
+/* line 213, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #pilsung {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 265px;
+  top: -82px;
+}
+/* line 220, ../sass/screen.scss */
+html body #footer #foot-container #foot-center #pilsung img {
+  width: 60px;
+}
+/* line 226, ../sass/screen.scss */
+html body #footer #foot-container #foot-right {
+  float: right;
+  width: 300px;
+  height: 260px;
+}
+/* line 231, ../sass/screen.scss */
+html body #footer #foot-container #foot-right #sitemap {
+  position: relative;
+  list-style-type: none;
+  top: 50px;
+  right: 13px;
+}
+/* line 237, ../sass/screen.scss */
+html body #footer #foot-container #foot-right #sitemap ul {
+  text-align: right;
+}
+/* line 240, ../sass/screen.scss */
+html body #footer #foot-container #foot-right #sitemap ul li {
+  padding: 5px;
   margin-right: 30px;
-  font-size: 1em;
+  font-size: .8em;
   font-weight: bold;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 #main {
   border-right: solid 1px #aaaaaa;
   border-left: solid 1px #aaaaaa;
   background-color: #fff;
 }
-/* line 200, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #main #content {
   margin: 0 auto;
   padding: 10px;
