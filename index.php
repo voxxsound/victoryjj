@@ -101,16 +101,16 @@
 				</div>
 				<div id=foot-center>
 					<div id=victory class=clear>
-						<img src="assets/images/logo.png">
+						<img src="assets/images/victorypatch1.png">
 					</div>
 					<div id=maguilla>
-						<img src="assets/images/maguilla2.gif">
+						<a href="http://bjjonline.com" ><img src="assets/images/maguilla2.gif"></a>
 					</div>
 					<div id=fr>
-						<a href=”http://www.fightresource.com”><img src="assets/images/fr.jpg"></a>
+						<a href="http://www.fightresource.com" ><img src="assets/images/fr.jpg"></a>
 					</div>
 					<div id=pilsung>
-						<img src="assets/images/PilSungLogo.jpg">
+						<a href="http://www.pil-sungmartialarts.com/home.htm" ><img src="assets/images/PilSungLogo.jpg"></a>
 					</div>
 				</div>
 				<div id=foot-right>
