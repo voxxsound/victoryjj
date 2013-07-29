@@ -52,29 +52,29 @@
 		</div>
 		<div id=main>
 			<div id=piecemaker>
-				<p>Put your alternative Non Flash content here.</p>
+				<img align="middle" src="assets/images/test2.jpg">
 			</div>
 			<div id=content>
 				<div id=news class=home-content>
-				  <p><strong>News</strong></p>
+				  <h3><strong>News</strong></h3>
 				  <br />
 				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
 				  </p>
 				</div>
 				<div id=about class=home-content>
-				  <p><strong>About Victory</strong></p>
+				  <h3><strong>About Victory</strong></h3>
 				  <br />
 				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
 				  </p>
 				</div>
 				<div id=bjj class=home-content>
-				  <p><strong>BJJ In Albany</strong></p>
+				  <h3><strong>BJJ In Albany</strong></h3>
 				  <br />
 				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
 				  </p>
 				</div>
 				<div id=instruct class=home-content>
-				  <p><strong>Instructors</strong></p>
+				  <h3><strong>Instructors</strong></h3>
 				  <br />
 				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lectus quis ipsum varius tincidunt. Vivamus quam nulla, lacinia eu accumsan rhoncus, hendrerit eleifend massa. Vestibulum ultricies lectus quis elementum tincidunt. Fusce facilisis, nulla fringilla dignissim facilisis, felis neque viverra risus, a accumsan justo erat non lacus. Ut non dui porttitor, pulvinar neque et, pulvinar mi. Etiam erat odio, pulvinar eget cursus vitae, imperdiet nec augue. Mauris dictum ornare ultrices. Duis mattis quam porta, facilisis turpis tristique, tristique sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae interdum velit.
 				  </p>

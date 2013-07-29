@@ -326,8 +326,18 @@ html body #footer #foot-container #foot-right #sitemap ul li {
   border-left: solid 1px #aaaaaa;
   background-color: #fff;
 }
-/* line 265, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
+#main #piecemaker img {
+  width: 100%;
+  text-align: center;
+}
+/* line 268, ../sass/screen.scss */
 #main #content {
   margin: 0 auto;
   padding: 10px;
+}
+/* line 273, ../sass/screen.scss */
+#main h3 {
+  font-weight: bold;
+  font-size: 1.2em;
 }
